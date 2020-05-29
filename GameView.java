@@ -28,6 +28,7 @@ public class GameView extends JFrame
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(cell * width + 50, cell * height + 50);
         food.SetSnake(snake);
+        kc.SetSnake(snake);
         this.addKeyListener(kc);
         this.setVisible(true);
     }

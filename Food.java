@@ -42,8 +42,7 @@ public class Food
             Random random = new Random();
             x = random.nextInt(GameView.width - 1);
             y = random.nextInt(GameView.height - 1);
-        }while (x < 2 || x >= GameView.width ||
-                y < 2 || y >= GameView.height);
+        }while (x < 2 || y < 3);
     }
 
     public void Eat()
